@@ -1,0 +1,17 @@
+package com.spring.mappers;
+
+import com.spring.domain.MemberVO;
+
+public interface MemberMapper {
+    // 현재시간체크
+    public String getTime();
+
+    // 회원 입력
+    public void insertMember(MemberVO memberVO);
+
+    // 회원아이디로 조회
+    public MemberVO readMember(String userid) throws Exception;
+
+    // 회원아이디, 비밀번호로 조회
+    public MemberVO readWithPW(String userid, String userpw) throws Exception;
+}
