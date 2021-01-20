@@ -8,42 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f52cd8-a689-4299-840c-5e65c42208d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/springBoard.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/HomeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/classes/META-INF/springBoard.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/classes/com/spring/HomeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/classes/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/aspectjrt-1.6.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/javax.inject-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/jcl-over-slf4j-1.6.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/log4j-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/spring-config/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/spring-config/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/DataSourceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-board.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-board.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/spring-config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/spring-config/applicationContext.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +27,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -81,6 +53,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\webapp\WEB-INF\views" />
@@ -100,7 +75,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DataSourceTest">
+    <configuration name="DataSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springBoard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.DataSourceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springBoard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testpage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testpage" />
+      <option name="MAIN_CLASS_NAME" value="com.testpage.MyBatisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings>
@@ -312,6 +317,12 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DataSourceTest" />
+        <item itemvalue="JUnit.MyBatisTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -328,6 +339,8 @@
       <workItem from="1610730708695" duration="779000" />
       <workItem from="1610731880624" duration="544000" />
       <workItem from="1610940420631" duration="2999000" />
+      <workItem from="1611070725524" duration="1701000" />
+      <workItem from="1611146707669" duration="1867000" />
     </task>
     <task id="LOCAL-00001" summary="commit test">
       <created>1610726982295</created>
