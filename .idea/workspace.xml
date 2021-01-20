@@ -8,13 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f52cd8-a689-4299-840c-5e65c42208d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/DataSourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-board.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/spring-config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-board/WEB-INF/spring-config/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/TestFile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -340,7 +334,7 @@
       <workItem from="1610731880624" duration="544000" />
       <workItem from="1610940420631" duration="2999000" />
       <workItem from="1611070725524" duration="1701000" />
-      <workItem from="1611146707669" duration="1867000" />
+      <workItem from="1611146707669" duration="2284000" />
     </task>
     <task id="LOCAL-00001" summary="commit test">
       <created>1610726982295</created>
