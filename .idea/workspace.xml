@@ -8,58 +8,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f52cd8-a689-4299-840c-5e65c42208d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/DomainControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/JsonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/RedirectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/StringControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/VoidControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/domain/ProductVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/left_column.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/main_footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/main_header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/plugin_js.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product_detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/ControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/article/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/article/domain/ArticleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/article/persistence/ArticleDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/article/persistence/ArticleDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/article/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/article/service/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/commons/paging/Criteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/commons/paging/PageMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/article/articleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/list_criteria.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/list_paging.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/modify_paging.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/read.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/read_paging.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/write.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/article/ArticleDAOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config/dispatcher-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/left_column.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/left_column.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/plugin_js.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/plugin_js.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/classes/META-INF/springBoard.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/classes/com/spring/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/classes/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/aspectjrt-1.6.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/jcl-over-slf4j-1.6.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/log4j-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/mybatis-3.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/mybatis-spring-1.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/slf4j-api-1.6.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-test-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/spring-config/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/spring-config/dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/views/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-board/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvc-board.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvc-board/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/lib/mysql-connector-java-5.1.41.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/lib/spring-aop-4.3.12.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/lib/spring-beans-4.3.12.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/lib/spring-context-4.3.12.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/lib/spring-core-4.3.12.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/lib/spring-expression-4.3.12.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/lib/spring-jdbc-4.3.12.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/lib/spring-test-4.3.12.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/lib/spring-tx-4.3.12.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/lib/spring-web-4.3.12.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/lib/spring-webmvc-4.3.12.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/spring-config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvc-board/WEB-INF/spring-config/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvc-board/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/views/include/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvc-board/WEB-INF/views/include/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc-board/WEB-INF/views/include/left_column.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvc-board/WEB-INF/views/include/left_column.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +91,7 @@
         <item name="board_spring@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="board_spring: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="tbl_member: table" type="dbc44a63:MariaImplModel$Table" />
+        <item name="tbl_article: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -110,10 +102,10 @@
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -134,33 +126,34 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/spring/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.spring.article" />
       <recent name="com.spring" />
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\webapp\WEB-INF\views\article" />
       <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\java\com\spring\user" />
       <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\java\com\spring\upload" />
       <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\java\com\spring\tutorial" />
       <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\java\com\spring\reply" />
-      <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\java\com\spring\commons" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="com.spring" />
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\resources\mappers\article" />
+      <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\java\com\spring\mappers\article" />
+      <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\java\com\spring\mappers" />
       <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\webapp\resources" />
       <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\java\com\spring" />
-      <recent name="C:\Users\VlueBee\Desktop\Source\springBoard\src\main\webapp\WEB-INF\spring-config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -176,94 +169,82 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.41">
-    <configuration name="ControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArticleDAOTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springBoard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.*" />
+          <option name="PATTERN" value="com.spring.article.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.ControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springBoard" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spring" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.MemberDAOTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberDAOTest.testReadMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springBoard" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spring" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.MemberDAOTest" />
-      <option name="METHOD_NAME" value="testReadMember" />
+      <option name="PACKAGE_NAME" value="com.spring.article" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.article.ArticleDAOTest" />
+      <option name="METHOD_NAME" value="testCreate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberDAOTest.testReadWithPW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArticleDAOTest.testCreate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springBoard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.domain.*" />
+          <option name="PATTERN" value="com.spring.article.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.MemberDAOTest" />
-      <option name="METHOD_NAME" value="testReadWithPW" />
+      <option name="PACKAGE_NAME" value="com.spring.article" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.article.ArticleDAOTest" />
+      <option name="METHOD_NAME" value="testCreate2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArticleDAOTest.testListCriteria" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springBoard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.domain.*" />
+          <option name="PATTERN" value="com.spring.article.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.MyBatisTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.spring.article" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.article.ArticleDAOTest" />
+      <option name="METHOD_NAME" value="testListCriteria" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArticleDAOTest.testListPaging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springBoard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.domain.*" />
+          <option name="PATTERN" value="com.spring.article.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.MyBatisTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.spring.article" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.article.ArticleDAOTest" />
+      <option name="METHOD_NAME" value="testListPaging" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleDAOTest.testURI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springBoard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.article.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.article" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.article.ArticleDAOTest" />
+      <option name="METHOD_NAME" value="testURI" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -481,10 +462,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ControllerTest" />
-        <item itemvalue="JUnit.MemberDAOTest.testReadMember" />
-        <item itemvalue="JUnit.MemberDAOTest.testReadWithPW" />
-        <item itemvalue="JUnit.MemberDAOTest" />
+        <item itemvalue="JUnit.ArticleDAOTest.testURI" />
+        <item itemvalue="JUnit.ArticleDAOTest.testListCriteria" />
+        <item itemvalue="JUnit.ArticleDAOTest.testListPaging" />
+        <item itemvalue="JUnit.ArticleDAOTest.testCreate2" />
+        <item itemvalue="JUnit.ArticleDAOTest.testCreate" />
       </list>
     </recent_temporary>
   </component>
@@ -495,17 +477,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@40077b76" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e500cfbe" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@40077b76" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7dedccba" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@40077b76" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@67adafd4" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e500cfbe" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3aa1b408" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -530,7 +507,11 @@
       <workItem from="1610940420631" duration="2999000" />
       <workItem from="1611070725524" duration="1701000" />
       <workItem from="1611146707669" duration="9435000" />
-      <workItem from="1611492776920" duration="9435000" />
+      <workItem from="1611492776920" duration="9853000" />
+      <workItem from="1611803886620" duration="5149000" />
+      <workItem from="1611840700081" duration="9503000" />
+      <workItem from="1612356558487" duration="8868000" />
+      <workItem from="1612365466934" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="commit test">
       <created>1610726982295</created>

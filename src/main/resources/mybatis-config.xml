@@ -5,7 +5,9 @@
 <configuration>
 
     <typeAliases>
-        <package name="com.spring"/>
+
+        <typeAlias type="com.spring.article.domain.ArticleVO" alias="ArticleVO"/>
+
     </typeAliases>
 
 </configuration>
